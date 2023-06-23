@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.demoapp.databinding.ActivityLogin2Binding
 import com.example.demoapp.ui.Home.HomeActivity
-import com.example.testlibraryfortextview.textViewStyle
+import com.example.text_style.textViewStyle
 
 
 class LoginActivity : AppCompatActivity() {
@@ -25,7 +25,9 @@ class LoginActivity : AppCompatActivity() {
 
 
             }
+
+
         }
-        textViewStyle(binding.textView,"#bdbdbd")
+
     }
 }
